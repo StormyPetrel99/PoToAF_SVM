@@ -1,0 +1,144 @@
+<!--#set var="TITLE" value="Predicting Onset of Atrial Fibrillation"-->
+<!--#include virtual="/head.shtml"-->
+
+
+<center>Seth McClennen, MD<br>
+Ary L. Goldberger, MD<br>
+Beth Israel Deaconess Medical Center<br>
+Boston, MA USA<br>
+<br>
+George B. Moody<br>
+Harvard-MIT Division of Health Sciences and Technology<br>
+Cambridge, MA USA<br>
+
+</center>
+
+<p>
+The general objective of the <a href="/challenge/2001/">Computers in Cardiology
+Challenge 2001</a> is to characterize changes in the surface electrocardiogram
+immediately prior to the onset of paroxysmal atrial fibrillation (PAF), in an
+effort to develop a reliable prediction algorithm for the arrhythmia.
+
+<p>
+Currently, no reliable validated methods exist to predict the onset of
+PAF.  Twelve-lead electrocardiograms <a href="#ref01">[1]</a>,
+signal-averaged P-wave morphology <a href="#ref02">[2,3]</a>, R-R
+interval dynamics <a href="#ref04">[4,5]</a>, and atrial ectopy <a
+href="#ref05">[5-7]</a> have all been studied as possible predictors of
+the onset of PAF.  Sensitive and specific non-invasive markers
+predicting the onset of PAF have not been determined or independently
+validated, however.  Given recent advances in clinical
+electrophysiology, a prediction tool that would allow for detection of
+imminent atrial fibrillation may have future therapeutic
+ramifications.
+
+<p>
+Atrial fibrillation (AF) is the most common major cardiac arrhythmia.
+In the United States alone, it affects an estimated 2.2 million
+people, with an increasing prevalence in the elderly <a
+href="#ref08">[8]</a>.  As the population ages, the prevalence is
+expected to rise; currently approximately 6% of the US population over
+the age of 65 are diagnosed with this arrhythmia.  Management consists
+of heart rate control and/or prevention of recurrent fibrillation, as
+well as prevention of secondary complications (most often
+thromboembolism).  Paroxysms of atrial fibrillation often precede the
+onset of more sustained atrial fibrillation.  A Japanese study of 234
+patients with atrial fibrillation found that 94 (40%) had PAF, and
+that sustained atrial fibrillation developed within one year in
+approximately one fourth of patients with PAF <a
+href="#ref09">[9]</a>.
+
+<p>
+The development of accurate predictors of the acute onset of PAF is
+clinically important because of the increasing possibility of
+electrically stabilizing and preventing the onset of atrial
+arrhythmias with different atrial pacing techniques.  Dual chamber
+atrial pacing may reduce the heterogeneity of atrial refractoriness
+manifested by P-wave duration changes on the surface electrocardiogram
+recording.  Preliminary studies by Prakash and colleagues <a
+href="#ref10">[10]</a> have indicated that acute suppression of PAF is
+possible in selected patients with dual-site right atrial pacing from
+the coronary sinus ostium and high right atrium.  The advances in
+anti-tachycardia pacing, drug management, and defibrillation may be
+applied to prevent the acute onset of PAF prior to the loss of sinus
+rhythm.  The maintenance of sinus rhythm can lead to decreased
+symptoms, improved hemodynamics, and possibly a decrease in the atrial
+remodeling that causes increased susceptibility to future episodes of
+PAF <a href="#ref11">[11]</a>. In addition, there may be a reduction
+in the risk of thromboembolic events.
+
+<h3>References</h3>
+
+<ol>
+<a name="ref01"><li></a> Dilaveris PE, Gialafos, EJ, Sideris SK,
+Theopistou AM, Andrikopoulos GK, Kyriakidis M, Gialafos JE, Toutouzas
+PK.  <a
+href="http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9588401&dopt=Abstract"
+target="other">Simple electrocardiographic markers for the prediction
+of paroxysmal idiopathic atrial fibrillation</a>.  Am Heart J
+1998;135:733-738.
+
+<a name="ref02"><li></a> Ishimoto N, Ito M, Kinoshita M.  <a
+href="http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10740152&dopt=Abstract"
+target="other">Signal-averaged P-wave abnormalities and atrial size in
+patients with and without idiopathic paroxysmal atrial
+fibrillation</a>.  Am Heart J 2000;139:684-689.
+
+<a name="ref03"><li></a> Amar D, Roistacher N, Zhang H, Baum MS,
+Ginsburg I, Steinberg JS.  <a
+href="http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10422924&dopt=Abstract"
+target="other">Signal-averaged P-wave duration does not predict atrial
+fibrillation after thoracic surgery</a>.  Anesthesiology
+1999;91:16-23.
+
+<a name="ref04"><li></a> Vikman S, Makikallio TH, Yli-Mayry S,
+Pikkujamsa S, Koivisto AM, Reinikainen P, Airaksinen KEJ, Huikuri HV.
+<a
+href="http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10562264&dopt=Abstract"
+target="other">Altered complexity and correlation properties of R-R
+interval dynamics before the spontaneous onset of paroxysmal atrial
+fibrillation</a>.  Circulation 1999;100:2079-2084.
+
+<a name="ref05"><li></a> Hnatkova K, Waktare JEP, Murgatroyd FD, Guo
+X, Baiyan X, Camm AJ, Malik M.  <a
+href="http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9630105&dopt=Abstract"
+target="other">Analysis of the cardiac rhythm preceding episodes of
+paroxysmal atrial fibrillation</a>.  Am Heart J 1998;135:1010-1019.
+
+<a name="ref06"><li></a> Kolb C, Nurnberger S, Ndrepepa G, Schreieck
+J, Zrenner B, Karch M, Schmitt C.  Modes of initiation of paroxysmal
+atrial fibrillation: an analysis of 157 spontaneously occurring
+episodes using 12-lead Holter monitoring.  PACE 2000;23(4):607.
+
+<a name="ref07"><li></a> Kolb C, Nurnberger S, Ndrepepa G, Zrenner B, Schomig
+A, Schmitt C.
+<a href="http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11676946&dopt=Abstract"
+target="other">Modes of initiation of paroxysmal atrial fibrillation from
+analysis of spontaneously occurring episodes using a 12-lead Holter monitoring
+system</a>.  Am J Cardiol 2001 Oct 15;88(8):853-7.
+
+<a name="ref08"><li></a> Feinberg WM, Blackshear JL, Laupacis A,
+Kronmal R, Hart RG.  <a
+href="http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7864703&dopt=Abstract"
+target="other">Prevalence, age distribution, and gender of patients
+with atrial fibrillation</a>.  Arch Intern Med 1995;155:469-473.
+
+<a name="ref09"><li></a> Takahashi N, Seki A, Imataka K, Fujii, J.
+<a href="http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7230514&dopt=Abstract" target="other">
+Clinical features of paroxysmal atrial fibrillation: an observation of
+94 patients</a>.  Jpn Heart J 1981;22:143-149.
+
+<a name="ref10"><li></a> Prakash A, Saksena S, Hill M, Krol RB, Munsif
+AN, Giorgberidze I, Mathew P, Mehra R.  <a href="http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9120152&dopt=Abstract" target="other">Acute effects of dual-site
+right atrial pacing in patients with spontaneous and inducible atrial
+flutter and fibrillation</a>.  J Am Coll Cardiol 1997;29:1007-1014.
+
+<a name="ref11"><li></a> Prystowsky EN.  <a
+href="http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10822035&dopt=Abstract"
+target="other">Management of atrial fibrillation: therapeutic options
+and clinical decisions</a>.  Am J Cardiol 2000;85:3D-11D.
+</ol>
+
+<!--#include virtual="/footer.shtml"-->
+</body>
+</html>
